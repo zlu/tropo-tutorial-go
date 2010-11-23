@@ -6,3 +6,5 @@ This should start a go web server locally.
 
 In your web browser, goto: http://localhost:8080/edit/whatever.
 You should see a page with phone number and message.  Fill in the information, then click send.
+
+Also you will need to create a Tropo scripting app and make sure you have messaging token assigned (and replace it in new.go).  Your Tropo script needs 1 line really: message $msg, { :to => 'tel:+' + $to, :network => 'SMS'}
