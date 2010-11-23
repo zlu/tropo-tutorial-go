@@ -1,0 +1,8 @@
+I wanted to learn Go programming language so I decided to write somme tropo programs for it.
+
+First type make ; ./sendsms
+
+This should start a go web server locally.
+
+In your web browser, goto: http://localhost:8080/edit/whatever.
+You should see a page with phone number and message.  Fill in the information, then click send.
