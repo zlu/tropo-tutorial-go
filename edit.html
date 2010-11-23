@@ -1,0 +1,10 @@
+<h1>Sending SMS</h1>
+
+<form action="/save/{title}" method="POST">
+<div>Phone Number</div>
+<div><textarea name="to" rows="1" cols="80">{to|html}</textarea></div>
+<p>
+<div>Message</div>
+<div><textarea name="body" rows="10" cols="80">{body|html}</textarea></div>
+<div><input type="submit" value="Send"></div>
+</form>
